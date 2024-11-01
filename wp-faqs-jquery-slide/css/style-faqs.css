@@ -1,0 +1,24 @@
+html {overflow-Y: scroll;}
+body {font: 10px normal Arial, Helvetica, sans-serif;margin: 0;padding: 0;line-height: 1.7em;
+}
+*, * focus {outline: none;margin: 0;padding: 0;}
+.container {width: 500px;margin: 0 auto;}
+h1 {font: 4em normal Georgia, 'Times New Roman', Times, serif;text-align:center;padding: 20px 0;color: #aaa;}
+h1 span { color: #666; }
+h1 small{font: 0.3em normal Verdana, Arial, Helvetica, sans-serif;text-transform:uppercase;letter-spacing: 0.5em;display: block;
+color: #666;}
+h2.acc_trigger {padding: 0 !important;	margin: 0 0 1px 0 !important;
+background: url(../images/plus_minus.png) no-repeat;height: 28px;	line-height: 46px;width: 599px;font-weight: normal;float: left;}
+h2.acc_trigger a {color:#303030;font-weight:normal;text-decoration: none;display: block;padding: 0 0 0 36px;
+text-transform:capitalize;font-size:19px;	}
+h2.acc_trigger a:hover {color:#8F8F8F;}
+h2.active {background-position: left bottom;}
+.acc_container {margin: 0 0 5px; padding: 0;overflow: hidden;font-size:12px;padding:10px;width: 576px;clear: both;
+-webkit-border-bottom-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;-moz-border-radius-bottomleft: 5px;border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px; }
+.acc_container .block {padding: 20px;}
+.acc_container .block p {padding: 5px 0;margin: 5px 0;}
+.acc_container h3 {font: 2.5em normal Georgia, "Times New Roman", Times, serif;margin: 0 0 10px;padding: 0 0 5px 0;
+border-bottom: 1px dashed #ccc;}
+.acc_container img {float: left;margin: 10px 15px 15px 0;padding: 5px;background: #ddd;border: 1px solid #ccc;}
